@@ -1,6 +1,6 @@
-from banking_system import BankingSystem
+from banking_system import banking_system
 
-class SavingsAccount(BankingSystem):
+class SavingsAccount(banking_system):
     MIN_BALANCE = 1000
 
     def withdraw(self, amount: float):

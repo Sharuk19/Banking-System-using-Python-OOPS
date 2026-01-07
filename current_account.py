@@ -1,6 +1,6 @@
-from banking_system import BankingSystem
+from banking_system import banking_system
 
-class CurrentAccount(BankingSystem):
+class CurrentAccount(banking_system):
 
     def withdraw(self, amount: float):
         if amount <= 0:
