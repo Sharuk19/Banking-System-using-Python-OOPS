@@ -10,5 +10,3 @@ class CurrentAccount(BankingSystem):
             print(f"Withdrawn ₹{amount}. Remaining balance: ₹{self._balance}")
         else:
             print("Insufficient funds.")
-
-#checking
